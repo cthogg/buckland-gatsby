@@ -1,0 +1,42 @@
+backend:
+  name: gitlab
+  repo: cthogg/buckland-gatsby
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'src/pages/markdown/index.md'
+        label: 'Landing Page'
+        name: 'index'
+        fields:
+          - { name: title, label: Title }
+          - {
+              name: specialTimes,
+              label: specialTimes,
+              widget: 'boolean',
+              default: false,
+            }
+          - { name: specialTimesTitle, label: specialTimesTitle }
+          - { name: times, label: times, widget: 'text', default: '{ "times": [{
+                "date": "283873298243th May",
+                "title": "Easter Day",
+                "times": "18:30 - 19:30"
+                },{
+                "date":"5th June",
+                "title": "Normal Day",
+                "times": "12323" }] }' }
+
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'src/content'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { name: draft, label: draft, widget: 'boolean', default: false }
