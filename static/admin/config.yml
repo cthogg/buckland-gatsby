@@ -1,5 +1,5 @@
 backend:
-  name: gitlab
+  name: github
   repo: cthogg/buckland-gatsby
 
 media_folder: static/assets
