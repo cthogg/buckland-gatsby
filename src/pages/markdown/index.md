@@ -1,5 +1,5 @@
 ---
-title: Welcome to Buckland Nurseries Garden Centre
+title: Welcome to Buckland Nurseries Garden Centre!
 specialTimes: false
 specialTimesTitle: Easter Opening Times
 times: >-
