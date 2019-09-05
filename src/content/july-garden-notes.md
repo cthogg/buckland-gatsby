@@ -1,6 +1,6 @@
 ---
 title: July Garden Notes
-date: 2019-09-05T17:57:26.604Z
+date: 2019-07-03T17:57:26.604Z
 draft: false
 ---
 With so much healthy growth on plants and shrubs since the spring, some areas of the garden may need attention. 
