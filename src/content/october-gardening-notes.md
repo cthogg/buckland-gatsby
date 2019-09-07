@@ -1,7 +1,7 @@
 ---
 title: October Gardening Notes
-date: 2019-09-06T18:01:39.766Z
-draft: false
+date: 2019-10-01T18:01:39.766Z
+draft: true
 ---
 It has been a good year so far for gardening. Although last year’s extreme heat was good for many annual and tropical plants, in the last 9 months we have seen plenty of warm spells interspersed with regular rain showers. Yes, we have seen occasional record temperatures, but these have not been prolonged. Plants and lawns can cope with this, and have thrived in these conditions. Lawns in particular suffered during summer 2018; as mentioned last month, if you still have bare patches a year later, best to reseed now before leaf-fall. Likewise, replace conifers which have not revived. 
 
