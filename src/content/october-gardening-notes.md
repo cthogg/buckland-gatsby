@@ -9,6 +9,8 @@ One of the great pleasures of producing beautiful blooms in your garden is to en
 
 Other flowers can be just as successful to enjoy inside. Alstromeria are a natural long-lasting and reliable flower, which is why they are so popular with florists. Chrysanthemums will perform well, but remember to remove lower leaves that would otherwise be under water. For summer blooms, consider delphinium, larkspur, gypsophila and cosmos. Just a single rose flower in a vase will bring scent and joy, a vaseful even more so! 
 
+
+
 David Hogg
 
-Buckland Nurseries 
+Buckland Nurseries
