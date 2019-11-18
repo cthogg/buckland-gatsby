@@ -6,6 +6,7 @@ import MediaQuery from 'react-responsive'
 import { Col, Container, Row, Table } from 'reactstrap'
 import styled from 'styled-components'
 import Layout from '../components/layout'
+import Link from 'gatsby-link'
 
 const StyledImg = styled(Img)`
   @media (max-width: 600px) {
@@ -31,6 +32,11 @@ const StyledTable = styled(Table)`
       background-color: lightGrey;
     }
   }
+`
+
+const StyledLink = styled(Link)`
+  color: blue;
+  text-decoration: underline;
 `
 
 /* eslint-enable */
@@ -69,6 +75,9 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <h1> {`Welcome to Buckland Nurseries Garden Centre`}</h1>
+              <StyledLink to="/christmas/">
+                Information on our range of Christmas Trees
+              </StyledLink>
             </Container>
             {specialTimes && (
               <React.Fragment>
