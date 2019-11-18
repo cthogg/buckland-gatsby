@@ -43,6 +43,11 @@ export default class Header extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink>
+                  <Link to="/christmas/">Christmas Trees</Link>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink>
                   <Link to="/contact-us/">Contact Us</Link>
                 </NavLink>
               </NavItem>
