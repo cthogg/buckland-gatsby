@@ -35,7 +35,7 @@ const StyledTable = styled(Table)`
 `
 
 const StyledLink = styled(Link)`
-  color: blue;
+  color: blue !important;
   text-decoration: underline;
 `
 
