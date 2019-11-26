@@ -75,7 +75,13 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <h1> {`Welcome to Buckland Nurseries Garden Centre`}</h1>
-              <StyledLink to="/christmas/">
+              <StyledLink
+                style={{
+                  color: 'blue !important',
+                  textDecoration: 'underline',
+                }}
+                to="/christmas/"
+              >
                 Information on our range of Christmas Trees
               </StyledLink>
             </Container>
