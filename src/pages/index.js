@@ -150,5 +150,12 @@ export const pageQuery = graphql`
         }
       }
     }
+      christmasFlyer: file(relativePath: { eq: "christmas_flyer_2019_compressed.jpg" }) {
+      childImageSharp {
+        fixed(width: 325, height: 150) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
   }
 `
