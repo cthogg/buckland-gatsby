@@ -136,7 +136,7 @@ export default class IndexPage extends React.Component {
                   <Row>
                     <Col xs="12">
                       <StyledTable>
-                        {newTimes.map((time, index) => (
+                        {times.map((time, index) => (
                           <React.Fragment key={index}>
                             <tr>
                               <td> {time.date}</td>
