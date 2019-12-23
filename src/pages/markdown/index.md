@@ -1,6 +1,6 @@
 ---
 title: Welcome to Buckland Nurseries Garden Centre
-specialTimes: false
+specialTimes: true
 specialTimesTitle: Christmas Opening Times
 times: >-
   { "times": [{
