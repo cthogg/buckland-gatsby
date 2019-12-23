@@ -43,12 +43,65 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const times = JSON.parse(this.props.data.markdownRemark.frontmatter.times)
+    const timesT = JSON.parse(this.props.data.markdownRemark.frontmatter.times)
     const {
-      specialTimes,
-      specialTimesTitle,
+      specialTimesT,
+      specialTimesTitleT,
     } = this.props.data.markdownRemark.frontmatter
-
+    const specialTimesTitle = 'Christmas Opening Times'
+    const specialTimes = true
+    const times = [
+      {
+        date: '24th December',
+        title: '-',
+        times: '08:30 - 14:30',
+      },
+      {
+        date: 'Christmas Day',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Boxing Day',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Friday 27th',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Saturday 28th',
+        title: '-',
+        times: '09:00 - 14:00',
+      },
+      {
+        date: 'Sunday 29th',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Monday 30th',
+        title: '-',
+        times: '09:00 - 14:00',
+      },
+      {
+        date: 'Tuesday 31st',
+        title: '-',
+        times: '09:00 - 14:00',
+      },
+      {
+        date: "New Year's Day",
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Thursday 2nd Jan',
+        title: '-',
+        times: '08:30 - 17:30 (as normal)',
+      },
+    ]
     return (
       <Layout>
         <div>
@@ -75,15 +128,6 @@ export default class IndexPage extends React.Component {
                 </Col>
               </Row>
               <h1> {`Welcome to Buckland Nurseries Garden Centre`}</h1>
-              <StyledLink
-                style={{
-                  color: 'blue !important',
-                  textDecoration: 'underline',
-                }}
-                to="/christmas/"
-              >
-                Information on our range of Christmas Trees
-              </StyledLink>
             </Container>
             {specialTimes && (
               <React.Fragment>
@@ -92,7 +136,7 @@ export default class IndexPage extends React.Component {
                   <Row>
                     <Col xs="12">
                       <StyledTable>
-                        {times.times.map((time, index) => (
+                        {newTimes.map((time, index) => (
                           <React.Fragment key={index}>
                             <tr>
                               <td> {time.date}</td>
@@ -150,7 +194,9 @@ export const pageQuery = graphql`
         }
       }
     }
-      christmasFlyer: file(relativePath: { eq: "christmas_flyer_2019_compressed.jpg" }) {
+    christmasFlyer: file(
+      relativePath: { eq: "christmas_flyer_2019_compressed.jpg" }
+    ) {
       childImageSharp {
         fixed(width: 325, height: 150) {
           ...GatsbyImageSharpFixed
