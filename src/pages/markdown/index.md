@@ -1,9 +1,21 @@
 ---
 title: Welcome to Buckland Nurseries Garden Centre
-specialTimes: false
-specialTimesTitle: Easter Opening Times
-times: >-
-  { "times": [{ "date": "283873298243th May", "title": "Easter Day", "times":
-  "18:30 - 19:30" },{ "date":"5th June", "title": "Normal Day", "times": "12323"
-  }] }
+specialTimes: true
+specialTimesTitle: Christmas Opening Times
+times: |
+  {
+    "times": [
+      {
+        "date": "24th December",
+        "title": "-",
+        "times": "08:30 - 14:30"
+      },
+      {
+        "date": "Christmas Day",
+        "title": "-",
+        "times": "Closed"
+      }
+    ]
+  }
 ---
+
