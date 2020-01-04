@@ -43,65 +43,12 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const timesT = JSON.parse(this.props.data.markdownRemark.frontmatter.times)
     const {
-      specialTimesT,
-      specialTimesTitleT,
+      specialTimes,
+      specialTimesTitle,
     } = this.props.data.markdownRemark.frontmatter
-    const specialTimesTitle = 'Christmas Opening Times'
-    const specialTimes = true
-    const times = [
-      {
-        date: '24th December',
-        title: '-',
-        times: '08:30 - 14:30',
-      },
-      {
-        date: 'Christmas Day',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Boxing Day',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Friday 27th',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Saturday 28th',
-        title: '-',
-        times: '09:00 - 14:00',
-      },
-      {
-        date: 'Sunday 29th',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Monday 30th',
-        title: '-',
-        times: '09:00 - 14:00',
-      },
-      {
-        date: 'Tuesday 31st',
-        title: '-',
-        times: '09:00 - 14:00',
-      },
-      {
-        date: "New Year's Day",
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Thursday 2nd Jan',
-        title: '-',
-        times: '08:30 - 17:30 (as normal)',
-      },
-    ]
+    const times = JSON.parse(specialTimes)
+
     return (
       <Layout>
         <div>
