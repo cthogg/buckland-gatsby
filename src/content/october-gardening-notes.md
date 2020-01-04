@@ -1,5 +1,5 @@
 ---
-title: October Gardening Notes
+title: October Garden Notes
 date: 2019-10-01T18:01:39.766Z
 draft: false
 ---

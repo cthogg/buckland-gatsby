@@ -1,5 +1,5 @@
 ---
-title: Helping wildlife - January Garden Notes
+title: Helping wildlife (January Garden Notes)
 date: 2020-01-04T15:49:36.019Z
 draft: false
 ---
