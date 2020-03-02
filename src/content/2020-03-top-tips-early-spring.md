@@ -12,5 +12,6 @@ As gardens are bursting into life again, keep ahead of the game with a few quick
 - Greenhouses show their full benefit in early spring. Even an unheated glasshouse will provide excellent protection for young seedlings and tender plants from battering winds and drenching rain. Higher light and warmth levels will help germination and early growth, and late frosts can be thwarted with a covering of fleece.
 - Plant climbers now for maximum benefit this summer. As well as clematis and jasmin, consider the more exotic campsis, passiflora (passion flower), and abutilon. When planted early in a sunny position they will give excellent colour from mid-July from unique and unusual flowers.
 
-David Hogg
+David Hogg,
+
 Buckland Nurseries
