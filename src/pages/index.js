@@ -43,12 +43,12 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const {
-      specialTimes,
-      specialTimesTitle,
-    } = this.props.data.markdownRemark.frontmatter
+    const { specialTimes, specialTimesTitle } = { specialTimes: true }
     const times = JSON.parse(specialTimes)
-
+    const specialAnnouncement = true
+    const specialAnnouncementTitle = 'Update On Coronavirus (COVID-19) '
+    const specialAnnouncementText =
+      'For the safety of our staff and customers, we will unfortunately be closed until further notice. Thank you all for your support and understanding. '
     return (
       <Layout>
         <div>
@@ -76,29 +76,6 @@ export default class IndexPage extends React.Component {
               </Row>
               <h1> {`Welcome to Buckland Nurseries Garden Centre`}</h1>
             </Container>
-            {specialTimes && (
-              <React.Fragment>
-                <h2> {specialTimesTitle} </h2>
-                <Container className={'center'}>
-                  <Row>
-                    <Col xs="12">
-                      <StyledTable>
-                        {times.map((time, index) => (
-                          <React.Fragment key={index}>
-                            <tr>
-                              <td> {time.date}</td>
-                              <td>{time.title}</td>
-                              <td>{time.times}</td>
-                            </tr>
-                          </React.Fragment>
-                        ))}
-                      </StyledTable>
-                    </Col>
-                  </Row>
-                </Container>
-              </React.Fragment>
-            )}
-
             <p>
               {' '}
               Situated on the A25 between Reigate and Dorking, we are a family
@@ -109,6 +86,43 @@ export default class IndexPage extends React.Component {
               sundries, tools, turf, seeds, paving and gravels. We look forward
               to welcoming you to our traditional Garden Centre.{' '}
             </p>
+
+            {specialAnnouncement && (
+              <div
+                style={{
+                  border: '5px solid red',
+                  marginBottom: 2,
+                }}
+              >
+                <h2
+                  style={{
+                    textDecoration: 'underline',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  {' '}
+                  {specialAnnouncementTitle}{' '}
+                </h2>
+                <Container className={'center'}>
+                  <Row>
+                    <Col xs="12">
+                      <p> {specialAnnouncementText}</p>
+                      {/*                       <StyledTable>
+                        {times.map((time, index) => (
+                          <React.Fragment key={index}>
+                            <tr>
+                              <td> {time.date}</td>
+                              <td>{time.title}</td>
+                              <td>{time.times}</td>
+                            </tr>
+                          </React.Fragment>
+                        ))}
+                      </StyledTable> */}
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
+            )}
           </Container>
         </div>
       </Layout>
