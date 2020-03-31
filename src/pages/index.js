@@ -48,7 +48,7 @@ export default class IndexPage extends React.Component {
     const specialAnnouncement = true
     const specialAnnouncementTitle = 'Update On Coronavirus (COVID-19) '
     const specialAnnouncementText =
-      'For the safety of our staff and customers, we will unfortunately be closed until further notice. Thank you all for your support and understanding. '
+      'For the safety of our staff and customers, we will unfortunately be closed for on-site sales, collections and all deliveries until further notice. Thank you all for your support and understanding. '
     return (
       <Layout>
         <div>
