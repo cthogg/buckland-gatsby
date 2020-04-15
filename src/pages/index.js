@@ -81,7 +81,7 @@ export default class IndexPage extends React.Component {
               Situated on the A25 between Reigate and Dorking, we are a family
               garden centre established over 150 years ago. The business was
               founded by Thomas Hogg in 1865 and has continued over six
-              generations of the Hogg family. We stock a wide range of
+              generations of the Hogg family as Thomas Hogg & Son Limited. We stock a wide range of
               perennials, trees, shrubs, bedding plants, roses, herbs, garden
               sundries, tools, turf, seeds, paving and gravels. We look forward
               to welcoming you to our traditional Garden Centre.{' '}
