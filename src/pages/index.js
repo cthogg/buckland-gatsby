@@ -48,7 +48,26 @@ export default class IndexPage extends React.Component {
     const specialAnnouncement = true
     const specialAnnouncementTitle = 'Update On Coronavirus (COVID-19) '
     const specialAnnouncementText =
-      'For the safety of our staff and customers, we will unfortunately be closed for on-site sales, collections and all deliveries until further notice. Thank you all for your support and understanding. '
+      `test`
+    const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
+
+      <p>
+        Following the Government announcement regarding garden centres, we aim to re-open at 10am on Wednesday 13th May. We have introduced a range of measures in order to comply with Government regulations and advice,  and ask that you respect social distancing with our staff and other customers.
+    </p>
+      <ul>
+
+        <li>
+          We are currently re-stocking with a range of fresh plants, so we recommend delaying your visit until later in the week if possible.
+      </li>
+        <li>
+          Please pay by credit or debit card
+      </li>
+        <li>
+          We regret we are currently unable to answer telephone and email queries to prioritise safety on site.
+      </li>
+      </ul>
+      <p> Thank you for your support and understanding.</p>
+    </div >
     return (
       <Layout>
         <div>
@@ -106,7 +125,7 @@ export default class IndexPage extends React.Component {
                 <Container className={'center'}>
                   <Row>
                     <Col xs="12">
-                      <p> {specialAnnouncementText}</p>
+                      <p> {specialAnnouncementDiv}</p>
                       {/*                       <StyledTable>
                         {times.map((time, index) => (
                           <React.Fragment key={index}>
@@ -132,8 +151,8 @@ export default class IndexPage extends React.Component {
 
 export const pageQuery = graphql`
   query {
-    markdownRemark {
-      frontmatter {
+        markdownRemark {
+        frontmatter {
         title
         times
         specialTimes
@@ -141,27 +160,27 @@ export const pageQuery = graphql`
       }
       html
     }
-    imageOne: file(relativePath: { eq: "1300_600/entrance.jpg" }) {
-      childImageSharp {
+    imageOne: file(relativePath: {eq: "1300_600/entrance.jpg" }) {
+        childImageSharp {
         fixed(width: 650, height: 300) {
-          ...GatsbyImageSharpFixed
-        }
+        ...GatsbyImageSharpFixed
+      }
       }
     }
-    imageOneMob: file(relativePath: { eq: "1300_600/entrance.jpg" }) {
-      childImageSharp {
+    imageOneMob: file(relativePath: {eq: "1300_600/entrance.jpg" }) {
+        childImageSharp {
         fixed(width: 325, height: 150) {
-          ...GatsbyImageSharpFixed
-        }
+        ...GatsbyImageSharpFixed
+      }
       }
     }
     christmasFlyer: file(
-      relativePath: { eq: "christmas_flyer_2019_compressed.jpg" }
+      relativePath: {eq: "christmas_flyer_2019_compressed.jpg" }
     ) {
-      childImageSharp {
+        childImageSharp {
         fixed(width: 325, height: 150) {
-          ...GatsbyImageSharpFixed
-        }
+        ...GatsbyImageSharpFixed
+      }
       }
     }
   }
