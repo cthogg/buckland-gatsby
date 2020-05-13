@@ -52,7 +52,7 @@ export default class IndexPage extends React.Component {
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
 
       <p>
-        Following the Government announcement regarding garden centres, we aim to re-open at 10am on Wednesday 13th May. We have introduced a range of measures in order to comply with Government regulations and advice,  and ask that you respect social distancing with our staff and other customers.
+        Following the Government announcement regarding garden centres, we aim to re-open at 10am on Friday 15th May. We have introduced a range of measures in order to comply with Government regulations and advice,  and ask that you respect social distancing with our staff and other customers.
     </p>
       <ul>
 
