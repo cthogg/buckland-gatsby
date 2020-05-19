@@ -61,7 +61,7 @@ export default class IndexPage extends React.Component {
 We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
       </li>
         <li>
-Please wear face masks if possible, and use the hand sanitiser and disposable gloves provided.       </li>
+Please wear face masks if possible, and use the hand sanitiser provided.       </li>
         <li>
          Please pay by credit or debit card. We no longer accept cash payments. 
       </li>
@@ -71,6 +71,9 @@ Please wear face masks if possible, and use the hand sanitiser and disposable gl
         <li>
          We have temporarily suspended our delivery service. 
       </li>
+<li>
+           For safety reasons, we are restricting the number of cars in the car park. Occasionally we have to alter our opening and closing times, and close to customers during the day. We apologise for any inconvenience due to these essential safety considerations.
+           </li>
       </ul>
       <p> Thank you for your support and understanding.</p>
     </div >
