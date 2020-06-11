@@ -60,13 +60,15 @@ export default class IndexPage extends React.Component {
         <li>
 We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
       </li>
+ <li>
+In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
         <li>
 Please wear face masks if possible, and use the hand sanitiser provided.       </li>
         <li>
          Please pay by credit or debit card. We no longer accept cash payments. 
       </li>
         <li>
-       We regret we are currently unable to answer telephone and email queries at present in order to prioritise safety on site.  
+       We regret we are unable to answer telephone queries at present in order to prioritise safety on site.  
       </li>
         <li>
          We have temporarily suspended our delivery service. 
