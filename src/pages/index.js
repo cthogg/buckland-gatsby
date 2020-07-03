@@ -52,32 +52,8 @@ export default class IndexPage extends React.Component {
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
 
       <p>
-       Following the Government announcement regarding garden centres, we are now open again. 
+       We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! 
     </p>
-<p> For the safety our our staff and customers:  </p>
-      <ul>
-
-        <li>
-We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
-      </li>
- <li>
-In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
-        <li>
-Please wear face masks if possible, and use the hand sanitiser provided.       </li>
-        <li>
-         Please pay by credit or debit card. We no longer accept cash payments. 
-      </li>
-        <li>
-       We regret we are unable to answer telephone queries at present in order to prioritise safety on site.  
-      </li>
-        <li>
-         We have temporarily suspended our delivery service. 
-      </li>
-<li>
-           For safety reasons, we are restricting the number of cars in the car park. Occasionally we have to alter our opening and closing times, and close to customers during the day. We apologise for any inconvenience due to these essential safety considerations.
-           </li>
-      </ul>
-      <p> Thank you for your support and understanding.</p>
     </div >
     return (
       <Layout>
