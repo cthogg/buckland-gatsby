@@ -51,9 +51,24 @@ export default class IndexPage extends React.Component {
       `test`
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
 
-      <p>
-       We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! 
-    </p>
+   <p> For the safety our our staff and customers:  </p>
+      <ul>
+
+        <li>
+We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
+      </li>
+ <li>
+In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
+        <li>
+Please wear face masks if possible, and use the hand sanitiser provided.       </li>
+        <li>
+         Please pay by credit or debit card. We no longer accept cash payments. 
+      </li>
+        <li>
+         We have temporarily suspended our delivery service. 
+      </li>
+      </ul>
+      <p> Thank you for your support and understanding.</p>
     </div >
     return (
       <Layout>
