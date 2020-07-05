@@ -68,7 +68,7 @@ Please wear face masks if possible, and use the hand sanitiser provided.       <
          We have temporarily suspended our delivery service. 
       </li>
       </ul>
-      <p> Thank you for your support and understanding.</p>
+      <p> We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! </p>
     </div >
     return (
       <Layout>
