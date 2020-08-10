@@ -1,5 +1,5 @@
 ---
-title: Relections on the lockdown
+title: Reflections on the lockdown
 date: 2020-07-03T14:54:39.618Z
 draft: false
 ---
