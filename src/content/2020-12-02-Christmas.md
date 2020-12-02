@@ -1,4 +1,8 @@
-Christmas
+---
+title: Christmas
+date: 2020-12-02T14:54:39.618Z
+draft: false
+---
 
 With Christmas fast approaching, bring some festive cheer into the home with wreaths and garlands. These are so easy to make, and are freshest when made from assorted foliage and berries from the garden. Almost any greenery can be wired together to make a unique decoration. A basic wire or oasis foam frame can be useful for wreath making, or even a circle of twigs, whereas a tough length of ivy will suffice as a basis for a rustic garland or swag. Hellebore (Christmas rose) will give a perfect finishing touch. 
 
@@ -11,4 +15,5 @@ It’s a good idea to clear out and wash down greenhouses and pots, and always a
 Make the most of any bright and frost-free days. Being outside can be so productive in the garden and it is always good for raising the spirits.  Nobody ever feels low after a spot of gardening ! 
 
 David Hogg
+
 Buckland Nurseries 
