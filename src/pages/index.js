@@ -51,7 +51,7 @@ export default class IndexPage extends React.Component {
       `test`
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
 
-      <p style={{ fontWeight: 600, textDecoration: 'underline' }}> WE ARE OPEN! </p>
+      <p style={{ fontWeight: 600, textDecoration: 'underline' }}>  Full range of Christmas trees now in stock !  </p>
       <ul>
         <li>Following recent Government guidance, we are exempt from the latest lockdown. We aim to serve you within our normal opening times. </li>
         </ul>
