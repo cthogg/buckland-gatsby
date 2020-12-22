@@ -43,30 +43,87 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const { specialTimes, specialTimesTitle } = { specialTimes: true }
-    const times = JSON.parse(specialTimes)
     const specialAnnouncement = true
-    const specialAnnouncementTitle = 'Update On Coronavirus (COVID-19) '
-    const specialAnnouncementText =
-      `test`
+    const specialAnnouncementTitle = 'Christmas Opening Times / Update On Coronavirus (COVID-19) '
+
+    const times = [
+      {
+        date: 'Thursday 24th',
+        title: '-',
+        times: '09:00 - 13:00',
+      },
+      {
+        date: 'Christmas Day',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Boxing Day',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Sunday 27th',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Monday 28th',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Tuesday 29th',
+        title: '-',
+        times: '10:00-13:00',
+      },
+      {
+        date: 'Wednesday 30th',
+        title: '-',
+        times: '10:00 - 13:00',
+      },
+      {
+        date: 'Thursday 31st',
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: "New Year's Day",
+        title: '-',
+        times: 'Closed',
+      },
+      {
+        date: 'Saturday 2nd Jan',
+        title: '-',
+        times: 'Closed',
+      }, {
+        date: 'Sunday 3rd Jan',
+        title: '-',
+        times: 'Closed',
+      }, {
+        date: 'Monday 4th Jan',
+        title: '-',
+        times: 'Open as usual',
+      }
+    ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
       <p style={{ fontWeight: 600, textDecoration: 'underline' }}>  We are Open!  </p>
       <p style={{ fontWeight: 600, textDecoration: 'underline' }}>  Full range of Christmas trees now in stock !  </p>
       <ul>
         <li>Following recent Government guidance, we are exempt from the latest lockdown and Tier 4 restrictions. We aim to serve you within our normal opening times. </li>
-        </ul>
-   <p> For the safety our our staff and customers:  </p>
+      </ul>
+      <p> For the safety our our staff and customers:  </p>
       <ul>
 
         <li>
-We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
+          We have introduced a range of measures in order to comply with Government regulations and advice, and ask that you respect social distancing with our staff and other customers.
       </li>
- <li>
-In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
         <li>
-Please wear face masks inside and use the hand sanitiser provided.       </li>
+          In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
         <li>
-         Please pay by credit or debit card. We no longer accept cash payments. 
+          Please wear face masks inside and use the hand sanitiser provided.       </li>
+        <li>
+          Please pay by credit or debit card. We no longer accept cash payments.
       </li>
       </ul>
       <p> We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! </p>
@@ -128,8 +185,7 @@ Please wear face masks inside and use the hand sanitiser provided.       </li>
                 <Container className={'center'}>
                   <Row>
                     <Col xs="12">
-                      <p> {specialAnnouncementDiv}</p>
-                      {/*                       <StyledTable>
+                      <StyledTable>
                         {times.map((time, index) => (
                           <React.Fragment key={index}>
                             <tr>
@@ -139,7 +195,8 @@ Please wear face masks inside and use the hand sanitiser provided.       </li>
                             </tr>
                           </React.Fragment>
                         ))}
-                      </StyledTable> */}
+                      </StyledTable>
+                      <p> {specialAnnouncementDiv}</p>
                     </Col>
                   </Row>
                 </Container>
