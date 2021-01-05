@@ -44,7 +44,7 @@ const StyledLink = styled(Link)`
 export default class IndexPage extends React.Component {
   render() {
     const specialAnnouncement = true
-    const specialAnnouncementTitle = 'Christmas Opening Times / Update On Coronavirus (COVID-19) '
+    const specialAnnouncementTitle = 'Update On Coronavirus (COVID-19) '
 
     const times = [
       {
@@ -185,7 +185,7 @@ export default class IndexPage extends React.Component {
                 <Container className={'center'}>
                   <Row>
                     <Col xs="12">
-                      <StyledTable>
+                      {/* <StyledTable>
                         {times.map((time, index) => (
                           <React.Fragment key={index}>
                             <tr>
@@ -195,7 +195,7 @@ export default class IndexPage extends React.Component {
                             </tr>
                           </React.Fragment>
                         ))}
-                      </StyledTable>
+                      </StyledTable> */}
                       <p> {specialAnnouncementDiv}</p>
                     </Col>
                   </Row>
