@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
             <p>
               {' '}
               Monday to Saturday: <br />
-              9:00am - 4:30pm <br />
+              08:30am - 4:30pm <br />
               Sunday: <br />
               9:00am - 4:30pm{' '}
             </p>
