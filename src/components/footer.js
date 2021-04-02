@@ -23,7 +23,7 @@ export default class Footer extends React.Component {
             </p>
           </Col>
           <Col xs="12" sm="4">
-            <h3> January Opening Times</h3>
+            <h3> Opening Times</h3>
             <p>
               {' '}
               Monday to Saturday: <br />
