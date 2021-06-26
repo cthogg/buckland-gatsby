@@ -107,10 +107,6 @@ export default class IndexPage extends React.Component {
       }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
-      <p style={{ fontWeight: 600, textDecoration: 'underline' }}>  We are Open!  </p>
-      <ul>
-        <li>Following recent Government guidance, we are exempt from the latest lockdown and Tier 4 restrictions. We aim to serve you within our normal opening times. </li>
-      </ul>
       <p> For the safety our our staff and customers:  </p>
       <ul>
 
@@ -122,7 +118,7 @@ export default class IndexPage extends React.Component {
         <li>
           Please wear face masks inside and use the hand sanitiser provided.       </li>
         <li>
-          Please pay by credit or debit card. We no longer accept cash payments.
+          Please pay by credit or debit card.
       </li>
       </ul>
       <p> We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! </p>
