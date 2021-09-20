@@ -117,9 +117,6 @@ export default class IndexPage extends React.Component {
           In accordance with Government advice, please do not visit if you are unwell or likely to cough. In order to protect our staff and customers, please take care not to cough on site </li>
         <li>
           Please wear face masks inside and use the hand sanitiser provided.       </li>
-        <li>
-          Please pay by credit or debit card.
-      </li>
       </ul>
       <p> We now have good stocks again of compost, bedding plants, perennials and shrubs. We look forward to welcoming you and seeing you soon ! </p>
     </div >
