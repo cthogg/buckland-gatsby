@@ -16,13 +16,6 @@ const SecondPage = () => (
               low-drop and traditional Norway Spruce.
             </p>
             <p> Open Every Day until Christmas. </p>
-            <h2>Special Christmas Celebrations</h2>
-            <p>
-              Special celebrations on the weekends of 7th/8th and 14th/15th
-              December. Redhill Redstone Rotary Club will be with us with their
-              festive float. Enjoy hot chocolate and a mince pie while you are
-              choosing your tree!
-            </p>
           </Col>
         </Row>
       </Container>
