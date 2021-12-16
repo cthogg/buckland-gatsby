@@ -43,7 +43,7 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const specialAnnouncement = true
+    const specialAnnouncement = false
     const specialAnnouncementTitle = 'Christmas trees now in stock'
 
     const times = [
