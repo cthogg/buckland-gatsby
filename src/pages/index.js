@@ -107,7 +107,7 @@ export default class IndexPage extends React.Component {
       }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
-      <p> We will be closed for Christmas on 24th December 2021 and will re-open on Tuesday 4th January 2022</p>
+      <p> We will be closed for Christmas on 24th December 2021 and will re-open on Tuesday 4th January 2022.</p>
     </div >
     return (
       <Layout>
