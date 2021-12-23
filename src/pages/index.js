@@ -43,8 +43,8 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const specialAnnouncement = false
-    const specialAnnouncementTitle = 'Christmas trees now in stock'
+    const specialAnnouncement = true
+    const specialAnnouncementTitle = ''
 
     const times = [
       {
@@ -107,7 +107,7 @@ export default class IndexPage extends React.Component {
       }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
-      <p> We now have a large selection of Nordman, Norway Spruce, cut, potted and pot-grown. Don't forget a Christmas tree stand and lights as well!</p>
+      <p> We will be closed for Christmas on 24th December 2021 and will re-open on Tuesday 4th January 2022</p>
     </div >
     return (
       <Layout>
