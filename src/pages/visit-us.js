@@ -33,8 +33,8 @@ const VisitUs = () => (
           <Col md="4">
             <h2> Opening Times </h2>
             <p> We are open 7 days a week </p>
-            <p> Monday to Saturday: 8:30-4:30pm </p>
-            <p> Sunday: 9.00am - 5.00pm </p>
+            <p> Monday to Saturday: 8:30-5:00pm </p>
+            <p> Sunday: 9:00am - 4:30pm </p>
             <h3> Address </h3>
             <p> Reigate Road (Main A25), Buckland, Surrey RH2 9RE </p>
           </Col>
