@@ -43,67 +43,19 @@ const StyledLink = styled(Link)`
 //FIXME: remove this.props.data from below
 export default class IndexPage extends React.Component {
   render() {
-    const specialAnnouncement = false
-    const specialAnnouncementTitle = ''
+    const specialAnnouncement = true
+    const specialAnnouncementTitle = 'Easter Opening Times'
 
     const times = [
       {
-        date: 'Thursday 24th',
+        date: 'Easter Sunday',
         title: '-',
-        times: '09:00 - 13:00',
+        times: '09:00 - 16:30',
       },
       {
-        date: 'Christmas Day',
+        date: 'Easter Monday',
         title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Boxing Day',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Sunday 27th',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Monday 28th',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Tuesday 29th',
-        title: '-',
-        times: '10:00-13:00',
-      },
-      {
-        date: 'Wednesday 30th',
-        title: '-',
-        times: '10:00 - 13:00',
-      },
-      {
-        date: 'Thursday 31st',
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: "New Year's Day",
-        title: '-',
-        times: 'Closed',
-      },
-      {
-        date: 'Saturday 2nd Jan',
-        title: '-',
-        times: 'Closed',
-      }, {
-        date: 'Sunday 3rd Jan',
-        title: '-',
-        times: 'Closed',
-      }, {
-        date: 'Monday 4th Jan',
-        title: '-',
-        times: 'Open as usual',
+        times: '08:30-17:00',
       }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
@@ -166,7 +118,7 @@ export default class IndexPage extends React.Component {
                 <Container className={'center'}>
                   <Row>
                     <Col xs="12">
-                      {/* <StyledTable>
+                      <StyledTable>
                         {times.map((time, index) => (
                           <React.Fragment key={index}>
                             <tr>
@@ -176,8 +128,7 @@ export default class IndexPage extends React.Component {
                             </tr>
                           </React.Fragment>
                         ))}
-                      </StyledTable> */}
-                      <p> {specialAnnouncementDiv}</p>
+                      </StyledTable>
                     </Col>
                   </Row>
                 </Container>
