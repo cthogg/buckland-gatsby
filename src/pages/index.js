@@ -44,18 +44,13 @@ const StyledLink = styled(Link)`
 export default class IndexPage extends React.Component {
   render() {
     const specialAnnouncement = true
-    const specialAnnouncementTitle = 'Easter Opening Times'
+    const specialAnnouncementTitle = 'Bank holiday opening times'
 
     const times = [
       {
-        date: 'Easter Sunday',
+        date: 'Monday 2nd May',
         title: '-',
-        times: '09:00 - 16:30',
-      },
-      {
-        date: 'Easter Monday',
-        title: '-',
-        times: '08:30-17:00',
+        times: '08:30 - 17:00',
       }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
