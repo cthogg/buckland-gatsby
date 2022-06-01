@@ -44,14 +44,9 @@ const StyledLink = styled(Link)`
 export default class IndexPage extends React.Component {
   render() {
     const specialAnnouncement = true
-    const specialAnnouncementTitle = 'Bank holiday opening times'
+    const specialAnnouncementTitle = 'Open every day (usual times) during the Jubilee bank holiday'
 
     const times = [
-      {
-        date: 'Monday 2nd May',
-        title: '-',
-        times: '08:30 - 17:00',
-      }
     ]
     const specialAnnouncementDiv = <div style={{ textAlign: 'left' }}>
       <p> We will be closed for Christmas on 24th December 2021 and will re-open on Tuesday 4th January 2022.</p>
